@@ -6,8 +6,39 @@
 /* path to glyphicons */
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
+
 /* custom variable */
-$body-bg: red;
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #ffffff; //#f1f1f1;
+$brand-color:      #D4772B;
+$white: #ffffff;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+//my variables
+$pink: rgb(242,53,191);
+$green: rgb(187,255,0);
+$blue: rgb(69, 173, 168);
+$gray: #E2E3D9;
+$dgray: #fff;
+
 
 /* any style customization must be before the bootstrap import */
+
 @import "bootstrap";
+@import "base";
+@import "syntax-highlighting";
+@import "layout";
+
