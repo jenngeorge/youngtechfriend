@@ -1,17 +1,19 @@
 <div class="contact-page">
 
-    <header class="post-header">
+<!--    <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
-    </header>
+    </header>-->
 
     <div class="col-sm-6">
-        <div>
-            San Francisco Bay Area
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div>
+                San Francisco Bay Area
+            </div>
+            <div>
+                youngtechfriend@gmail.com
+            </div>
         </div>
-        <div>
-            youngtechfriend@gmail.com
-        </div>
-
     </div>
 
     <div class="col-sm-6">
@@ -30,11 +32,14 @@
                 <div>
                     <label>How shall I contact you back?</label>
                     <br>
-                    <input type="text" name="phone" placeholder="Your phone #">
+                    <input type="text" name="phone" placeholder="Your phone #" id="phone">
                     <br>
                     <input type="email" name="_replyto" placeholder="Your email">
                 </div>
-                <input type="submit" value="Send">
+                <div id="submit-button-div">
+                    <input type="submit" value="Send" class="btn-primary submit-button">
+                </div>
+
             </form>
         </div>
     </div>
