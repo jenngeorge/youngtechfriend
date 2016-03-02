@@ -269,15 +269,13 @@ panel 1*/
 .panel-1 {
     min-height: 300px;
     background-color: white;
+    text-align: center;
 }
 
 .panel-1 .col-md-4 {
     padding: 4em;
 }
 
-.panel-1 h2 {
-    text-align: center;
-}
 
 
 /*
@@ -337,6 +335,13 @@ contact page*/
     .col-sm-6 {
         padding: 2em;
 
+        .form-container {
+            border: 3px solid $brand-color;
+            border-radius: .5em;
+            margin: 1em;
+            padding: 2em;
+        }
+
         div {
             margin: 1em;
         }
@@ -348,7 +353,7 @@ contact page*/
 
         .contact-info {
             text-align: center;
-            padding-top: 2em;
+            padding: 2em;
         }
 
         #submit-button-div {
