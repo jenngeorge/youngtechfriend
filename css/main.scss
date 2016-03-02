@@ -42,3 +42,10 @@ $dgray: #fff;
 @import "syntax-highlighting";
 @import "layout";
 
+.panel-2 {
+  background-image: url('{{ site.baseurl }}/img/coffeeshop-dark.png');
+}
+
+.hero {
+  background-image: url('{{ site.baseurl }}/img/people-office.png');
+}
