@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f009bc7c-b211-49bf-a1ae-fb7bffbbe39b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_config.yml" afterPath="$PROJECT_DIR$/_config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss" afterPath="$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="youngtechfriend.iws" />
@@ -24,21 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_layout.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.265823">
-              <caret line="341" column="25" selection-start-line="341" selection-start-column="25" selection-end-line="341" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="284" column="27" selection-start-line="284" selection-start-column="27" selection-end-line="284" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17730497">
-              <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -105,8 +105,8 @@
         <option value="$PROJECT_DIR$/_includes/panel-3.html" />
         <option value="$PROJECT_DIR$/_includes/contact.html" />
         <option value="$PROJECT_DIR$/_includes/panel-1.html" />
-        <option value="$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss" />
       </list>
     </option>
   </component>
@@ -651,18 +651,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.265823">
-          <caret line="341" column="25" selection-start-line="341" selection-start-column="25" selection-end-line="341" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
+    <entry file="file://$PROJECT_DIR$/bower_components/bootstrap-sass/assets/stylesheets/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17730497">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="284" column="27" selection-start-line="284" selection-start-column="27" selection-end-line="284" selection-end-column="27" />
           <folding />
         </state>
       </provider>
