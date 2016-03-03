@@ -1,7 +1,39 @@
 <div class="hero">
 
+
+    <!-- Button trigger modal -->
     <div>
-        <button type="button" class="btn-primary hero-button">Free first Drop-In</button>
+        <button type="button" class="btn-primary hero-button" data-toggle="modal" data-target="#myModal">
+            Free first Drop-In
+        </button>
     </div>
 
+
+
+
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Enter your email for a free session code</h4>
+                <p>( I won't spam you )</p>
+
+                <form action="//formspree.io/youngtechfriend@gmail.com"
+                      method="POST">
+                    <div>
+                        <input type="email" name="free_replyto" placeholder="Your email" class="modalEmail">
+                    </div>
+                    <div id="submit-button-div">
+                        <input type="submit" value="Send" class="btn-primary submit-button">
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
 </div>

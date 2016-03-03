@@ -262,6 +262,26 @@ hero panel*/
 }
 
 
+/*email modal */
+.modal-header {
+
+    text-align: center;
+
+    input {
+        margin: 1em;
+    }
+
+    .modalEmail {
+        width: 80%;
+        border-color: $brand-color;
+        border-width: 3px;
+        border-image: none;
+        padding: .5em;
+    }
+
+
+}
+
 
 /*
 panel 1*/
@@ -340,6 +360,11 @@ contact page*/
             border-radius: .5em;
             margin: 1em;
             padding: 2em;
+
+            @media (max-width: 480px) {
+                margin: 0em;
+                padding: 1em;
+            }
         }
 
         div {
@@ -361,13 +386,7 @@ contact page*/
             padding-top: 1em;
         }
 
-        .submit-button {
-            background-color: $brand-color;
-            border-color: $brand-color;
-            border-radius: .5em;
-            width: 200px;
-            margin: 0 auto;
-        }
+
 
     }
 
@@ -377,4 +396,11 @@ contact page*/
     }
 }
 
+.submit-button {
+    background-color: $brand-color;
+    border-color: $brand-color;
+    border-radius: .5em;
+    width: 200px;
+    margin: 0 auto;
+}
 
